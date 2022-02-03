@@ -1,4 +1,73 @@
 
 body{
-    background-color: #F6D5A3  ;
+    background-image: url('boat.gif');
+    background-size: cover;
+    font: sans-serif;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+.table{
+    width: 100%;
+    align-content: center;
+    
+    background-color: rgb(151, 95, 204);
+}
+.row2{
+    background-color: rgb(240, 179, 130);
+}
+.table :hover{
+    background-color: mediumorchid;
+}
+th, td {
+    border:
+    0px solid
+    black; 
+    
+    padding: 10pt;
+    
+}
+.title{
+    position: absolute;
+    font-stretch: expanded;
+    font-size:70pt;
+    left: 400px;
+    top: 20px;
+    color: rgb(240, 179, 130);
+    font-weight: 600;
+     font-family: cursive;
+    
+}
+.image{
+    border-radius: 80px;
+    border: groove;
+    position: relative;
+    left: 600px;
+    top: 200px;
+   height: 10pc;
+}
+.Description{
+    position: relative;
+    text-align: justify;
+    left: 970px;
+    top: -20px;
+   height: 10pc;
+}
+.info{
+    position: relative;
+    top: -250px;
+}
+.quote{
+    font-weight: 300;
+     font-family: cursive;
+     color: rgb(240, 179, 130);
+     position: relative;
+    top: -500px;
+    bottom: 300px;
+    left: 460px;
+    font-size: 30px;
+}
+span{
+    color: red;
+    font-weight: bold;
 }
