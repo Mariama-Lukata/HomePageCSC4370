@@ -2,7 +2,7 @@
 body{
     background-image: url('boat.gif');
     background-size: cover;
-    font: sans-serif;
+    font-family: sans-serif;
     height: 100vh;
     padding:0;
     margin:0;
